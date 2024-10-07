@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Sintaxe</title>
+</head>
+<body>
+    <h1 id="objeto"></h1>
+    <h2 id="vetor"></h2>
+    <h3 id="textos"></h3>
+
+    <script>
+        // Tudo aqui é JavaScript
+        //variaveis
+        let idade = 16
+        let peso = 87.5
+
+        let cor = "Caju Laranja"
+        let nome = "Juriscreison"
+
+        let x = true
+        let y = false
+
+        const pessoa = { nome:"Arisoldo", sobrenome: "Adiamante"}
+        
+        document.getElementById("objeto").innerHTML = pessoa.nome
+        document.getElementById("vetor").innerHTML = cor
+        // Gerando String
+        document.getElementById("textos").innerHTML = `O ${nome} gosta da cor ${cor}`
+    </script>
+</body>
+</html>
